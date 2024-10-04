@@ -103,8 +103,6 @@
       window.sendCode = async function () {
         const phoneNumber = document.getElementById('phone-number').value;
 
-        console.log('!!');
-
         try {
           const appVerifier = window.recaptchaVerifier;
           console.log('Attempting to send SMS to:', phoneNumber);
